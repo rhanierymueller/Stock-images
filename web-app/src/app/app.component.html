@@ -1,0 +1,43 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" [routerLink]="['/home/home-carousel']" style="margin: 1%;">Galeria</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" [routerLink]="['/home/home-carousel']">Home
+                      <span class="sr-only">(current)</span>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" [routerLink]="['galeria/mater-galeria']">Cadastro</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+</header>
+
+<br>
+
+<div class="container">    
+  <router-outlet>
+
+  </router-outlet>
+</div>
+
+<br/>
+<br/>
+<footer>
+  <div class="card">
+      <div class="card-body" style="text-align: center;">
+          <h5 class="card-title">Rhaniery Mueller</h5>
+          <p class="card-text">Developer</p>
+          <a href="https://www.linkedin.com/in/rhanierymueller/" class="btn btn-primary">Linkedin</a>
+      </div>
+  </div>
+</footer>
+

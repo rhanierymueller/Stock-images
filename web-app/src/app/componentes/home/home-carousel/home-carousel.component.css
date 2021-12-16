@@ -1,0 +1,14 @@
+.tittle{
+    /* padding-left: 0.5em; */
+    text-align: center;
+    font-size: 3em;
+    /* width: 5em; */
+    padding-top: 0.4em;
+    padding-bottom: 0.2em;
+    font-family: 'Bree Serif';
+}
+
+.carrousel-css {
+    width: 50%;
+    margin-left: 25%;
+}
